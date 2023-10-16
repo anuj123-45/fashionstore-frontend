@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.nav3{
+  font-weight: bold;
+}
+
+.nav2{
+  font-weight: bold;
+}
+.nav3{
+  font-weight: bold;
+}
+.nav4{
+  font-weight: bold;
+}
+
+.speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 3vmax;
+  }
+  
+  .speedDialIcon {
+    width: 56px;
+    height: 56px;
+    
+    border-radius: 100%;
+  }
+
+  @media screen and (max-width: 800px){
+
+    .nav1{
+      width:27%;
+      padding: 5px;
+    
+
+    }
+    .nav2{
+      width:27%;
+      flex-direction: column;
+ 
+}
+    
+    
+    
+    .nav3{
+      width:27%;
+    
+    }
+    .nav4{
+      width:15%;
+      padding-right: 5vmax;
+      
+    
+    }
+    .logoReactNavbar {
+      width: 100%!important;
+  }
+    .nav1 logo{
+      width: 2.5vmax;
+    }
+  }

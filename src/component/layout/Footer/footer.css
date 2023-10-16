@@ -1,0 +1,123 @@
+footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color:rgb(40,40,43);
+    color:white;
+    display:flex ;
+    align-items: center;
+    font-family: 'Roboto';
+    /* line-height: 40px; */
+}
+
+.leftfooter{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin:5px;
+}
+
+.leftfooter >h4{
+    
+    font-size: 1vmax;
+
+}
+.leftfooter>h4:hover{
+    color:white;
+    transition: all 0.5s;
+}
+.leftfooter > p{
+    text-align: center;
+    
+    font-size: 1.vmax;
+ 
+}
+
+.midfooter{
+    width:60%;
+    text-align: center;
+    
+
+}
+
+.midfooter > h1{
+    font-size: 4vmax;
+    color:white;
+
+}
+
+.midfooter > p {
+    max-width: 60%;
+    margin: 1vmax auto;
+    font-size: 1.4vmax;
+}
+
+
+.rightfooter{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightfooter > h4{
+    font-family: 'Roboto';
+    font-size: 1.4vmax;
+  /*  text-decoration: underline;*/
+}
+
+.rightfooter>a{
+    text-decoration: none;
+    font-size: 1.3vmax;
+    
+    color:white;
+    padding: 5px;
+    transition: all 0.5s;
+    margin:0.5vmax;
+}
+
+.rightfooter > a:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:600px) {
+
+    footer{
+        margin-top: 10vmax;
+        padding: 0.5vmax;
+        
+    }
+
+.leftfooter {
+  font-size: 9px;
+  line-height: 15px;
+ 
+}
+
+.midfooter>h1{
+    font-size: 16px;
+}
+.midfooter >p{
+    font-size: 9px;
+    line-height: 15px;
+ 
+}
+.rightfooter >a{
+    font-size: 9px;
+    line-height: 5px;
+}
+.rightfooter>h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:10px ;
+    line-height: 5px;
+   
+}
+
+footer{
+    margin-right: 0;
+}
+
+
+
+}
