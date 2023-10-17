@@ -6,19 +6,19 @@ const Footer = () => {
   return (
     <footer id='footer'>
         <div className="leftfooter">
-            <p>Shop No 3 Kajupada,Kurla</p>
-            <p>  Mumbai-400072. </p>
+            <p>17, 1st Main Rd, Sampangi Rama Nagara, Sampangi Rama Nagar, Bengaluru</p>
+            <p> Karnataka 560027</p>
             
           
-            <h4>+91 123456890</h4>
+            <h4>+91 7876578377</h4>
 
 
         </div>
         <div className="midfooter">
           
-            <h1>SC</h1>
+            <h1>FF</h1>
             <p>Our customer is our first priority</p>
-            <p>Copyright 2023 &copy; SC </p>
+            <p>Copyright 2023 &copy; Fashion Finesse </p>
             </div>
         <div className="rightfooter">
             <h4>Contact Us</h4>
