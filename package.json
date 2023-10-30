@@ -14,6 +14,7 @@
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "axios": "^1.4.0",
+    "caniuse-lite": "^1.0.30001558",
     "chart.js": "^4.3.0",
     "country-state-city": "^3.1.4",
     "js-tokens": "^4.0.0",
@@ -62,6 +63,6 @@
       "last 1 safari version"
     ]
   },
- "proxy": "http://localhost:4000"
+  "proxy":"http://localhost:4000/"
   
 }
